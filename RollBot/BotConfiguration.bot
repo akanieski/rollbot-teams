@@ -8,6 +8,14 @@
       "appId": "",
       "appPassword": "",
       "id": "1"
+    },
+    {
+      "type": "endpoint",
+      "name": "production",
+      "endpoint": "https://rollbotlabs.azurewebsites.net/api/messages",
+      "appId": "",
+      "appPassword": "",
+      "id": "2"
     }
   ],
   "padlock": "",
