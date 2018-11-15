@@ -1,23 +1,26 @@
-﻿{
-  "name": "RollBot",
-  "services": [
-    {
-      "type": "endpoint",
-      "name": "development",
-      "endpoint": "http://localhost:3978/api/messages",
-      "appId": "",
-      "appPassword": "",
-      "id": "1"
-    },
-    {
-      "type": "endpoint",
-      "name": "production",
-      "endpoint": "https://rollbotlabs.azurewebsites.net/api/messages",
-      "appId": "",
-      "appPassword": "",
-      "id": "2"
-    }
-  ],
-  "padlock": "",
-  "version": "2.0"
+{
+    "name": "RollBot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "1",
+            "name": "development"
+        },
+        {
+            "type": "endpoint",
+            "appId": "19561aff-92ea-44fd-b306-2f30fb954aad",
+            "appPassword": "pcyxVVJ4994duuQPOE0$?[$",
+            "endpoint": "https://rollbotlabs.azurewebsites.net/api/messages",
+            "id": "2",
+            "name": "production"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "C:\\Users\\ankan\\source\\repos\\rollbot-teams\\RollBot\\BotConfiguration.bot",
+    "overrides": null
 }
